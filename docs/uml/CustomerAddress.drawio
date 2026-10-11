@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="ChatGPT" version="24.0.0" type="device">
+  <diagram id="customer-address-uml" name="CustomerAddress UML">
+    <mxGraphModel dx="2100" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1040" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#24364C;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="55" y="105" width="970" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="shape=line;strokeColor=#24364C;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="205" width="970" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="shape=line;strokeColor=#24364C;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="475" width="970" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Customer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=32;fontStyle=1;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="55" y="133" width="970" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="- id : Long" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="226" width="910" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="- name : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="281" width="910" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="- email : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="336" width="910" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="- address : Address" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="391" width="910" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="+ Customer()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="498" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="+ Customer(id : Long, name : String," style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="555" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="    email : String, address : Address)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="612" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="+ getId() : Long" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="669" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="+ getName() : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="726" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="+ getEmail() : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="783" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="+ getAddress() : Address" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="85" y="840" width="910" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#24364C;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="150" width="830" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="shape=line;strokeColor=#24364C;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="250" width="830" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="" style="shape=line;strokeColor=#24364C;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="500" width="830" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Address" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=32;fontStyle=1;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="178" width="830" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="- street : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="271" width="770" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="- city : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="326" width="770" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="- postcode : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="381" width="770" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="+ Address()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="523" width="770" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="+ Address(street : String, city : String," style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="580" width="770" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="    postcode : String)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="637" width="770" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="+ getStreet() : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="694" width="770" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="+ getCity() : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="751" width="770" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="+ getPostcode() : String" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=24;fontColor=#17293F;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="808" width="770" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="endArrow=open;endFill=0;endSize=17;strokeColor=#24364C;strokeWidth=4;html=1;edgeStyle=none;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="530" as="sourcePoint" />
+            <mxPoint x="1200" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="has-a" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=19;fontColor=#52647A;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="551" width="95" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
