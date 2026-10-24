@@ -5,7 +5,7 @@ public class DigitalProduct extends Product{
     private String downloadUrl;
     private double fileSize;
 
-    // no-arg constructor — Jackson needs this to build an object from an incoming JSON request body
+    // no-arg constructor — Jackson needs this to build an object from an incoming JSON request body.
     public DigitalProduct(){
 
     }
