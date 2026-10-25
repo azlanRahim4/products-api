@@ -12,6 +12,29 @@ public class ProductService {
     private List<Product> products = new ArrayList<>();
     private Long nextId = 1L;
 
+
+    public ProductService() {
+
+        // Digital product
+        products.add(new DigitalProduct(
+                nextId++,
+                "Clean Code (E-book)",
+                29.99,
+                "/downloads/clean-code.pdf",
+                4.2
+        ));
+
+        // Physical product
+        products.add(new PhysicalProduct(
+                nextId++,
+                "27-inch Monitor",
+                249.99,
+                5.4,
+                "61cm x 41cm x 18cm"
+        ));
+    }
+
+
     public List<Product> getAllProducts() {
         return products;
     }
